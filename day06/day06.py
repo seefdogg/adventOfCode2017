@@ -48,12 +48,6 @@ def run(bins):
         #printBins(bins)
     return allocs
 
-def copyAndInsert2(patterns, bins, index):
-    b = []
-    for i in range(16):
-        b.append(bins[i])
-    patterns[b] = index
-
 if __name__ == '__main__':
     print('--- Advent of Code 2017: Day 06 ---')
     data = open('input1.txt').read().split()
